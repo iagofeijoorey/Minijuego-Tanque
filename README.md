@@ -1,15 +1,28 @@
-# Minijuego Tanque: 
+# Minijuego Tanque: Proyecto de Computación Gráfica
+Este repositorio contiene el proyecto desarrollado para la asignatura de Desenvolvemente de Aplicacións Web del grado de Ingeniería Informática en la Universidad de Santiago de Compostela (USC). El equipo de desarrollo está compuesto por Iago Feijóo y Jorge González.
 
-## Descripción del Juego
+## Descripción del Proyecto
+El proyecto consiste en una aplicación c++ usando OpenGL para el manejo de graficos. El proyecto en su totalidad ha sido desarrollado utilizando Visual Studio 2022 como entorno de desarrollo integrado (IDE).
 El juego consiste en avanzar por el mapa e intentar destruir todas las torretas de este en el menor tiempo posible. 
 
+
 ## Contenido del Repositorio
+* src: Contiene el código fuente de la aplicación Java.
+* Debug/textures: Contiene las textureas usadas en el proyecto.
+* Debug/audios: Contiene las pistas de audios usadas en el proyecto.
+* LIB: Contiene las bibliotecas externas necesarias para la ejecución de la aplicación.
+* README.md: Este archivo que estás leyendo actualmente, proporciona una descripción general del proyecto y cómo utilizarlo.
+
+
+
+## Controles
 ~Teclas de ajustes
   * ESC: Sale del programa
   * N: Apaga el sonido del motor (solo el motor)
   * M: Enciende el sonido del motor (solo el motor)
   * E: Activa la visualización de los ejes
   * B: Apaga la luz del sol
+
 
 ~Teclas de Movimiento
   * W: Avanzar hacia delante                             (Recuperas energía para el boost)
